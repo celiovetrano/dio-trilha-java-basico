@@ -1,3 +1,6 @@
+package com.vetrano.application;
+import com.vetrano.entities.SmartTv;
+
 public class Usuario {
     public static void main(String[] args) throws Exception {
 
