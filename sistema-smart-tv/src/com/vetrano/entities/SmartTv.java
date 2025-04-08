@@ -1,9 +1,9 @@
 package com.vetrano.entities;
 
 public class SmartTv{
-    public boolean ligada = false;
-    public int canal = 1;
-    public int volume = 25;
+    private boolean ligada = false;
+    private int canal = 1;
+    private int volume = 25;
 
     public void ligar(){
         ligada = true;
@@ -34,5 +34,17 @@ public class SmartTv{
     public void mudarCanal(int canal){
         this.canal = canal;
     }
+
+    public boolean isLigada() {
+        return ligada;
+    }
+
+    public int getCanal() {
+        return canal;
+    }
+
+    public int getVolume() {
+        return volume;
+    } 
 
 }
